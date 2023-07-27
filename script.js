@@ -11,11 +11,27 @@ let idadeEsposa = "45"
 === comparar se é exatamente igual
  */
 
+var isOld = true;
 
-console.log(idade === idadeEsposa);
+let num = 98 
+const pi = 3.14
 
-let listaComprsa = []
+console.log(titulo)
 
-listaComprsa.push(Maça)
+if (idade == idadeEsposa) {
+    console.log("igual")
+}else{
+    console.log("diferente")
+}
 
-console.log(listaComprsa)
+
+/* ----------------------- Array ---------------------------- */
+/* Acessmos o array fazendo reff ao index */
+
+let lista = [1,2,3,4,5,6]
+for (let index = 0; index < lista.length; index++) {
+    const element = lista[index];
+    
+    console.log(element)
+}
+
