@@ -10,15 +10,21 @@
 
 <body>
 
-    <h1 id="titulo">Primeiro Comit</h1>
-    <span>Nome:</span><input id="nome" type="text">
-    <span>E-mail:</span><input id="e-mail" type="text">
-    <span>Telefone:</span><input id="telefone" type="text">
-    <button onclick="salvar()">Salvar</button>
+    <form action="">
+        <div class="campos">
+            <h1 id="titulo">Primeiro Comit</h1>
+            <article><span>Nome:</span><input id="nome" type="text"></article>
+            <article><span>E-mail:</span><input id="e-mail" type="text"></article>
+            <article><span>Telefone:</span><input id="telefone" type="text"></article>
+            <button onclick="salvar()">Salvar</button>
+        </div>
+    </form>
 
-    <h6 id="resultado"></h6>
-    <h6 id="resultado1"></h6>
-    <h6 id="resultado2"></h6>
+    <div class="resultados">
+        <h6 id="resultado"></h6>
+        <h6 id="resultado1"></h6>
+        <h6 id="resultado2"></h6>
+    </div>
     
     <script src="script.js"></script>
 

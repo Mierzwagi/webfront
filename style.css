@@ -8,3 +8,11 @@ span{
     margin: 10px;
     border-radius: 10px;
 }
+
+.campos article{
+    margin: 10px;
+}
+
+.campos article input{
+    margin: 10px;
+}
